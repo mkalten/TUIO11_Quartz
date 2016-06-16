@@ -24,7 +24,7 @@ the default TUIO/UDP port is 3333.
 
 There are three outputs, the first one is giving all current TuioObjects,
 while the second port outputs TuioCursors, and the third TuioBlobs.
-All ports output "Structures", which are parameter lists that containing,
+All ports output "Structures", which are parameter lists that contain 
 some of the following attributes (depending on the actual output):
 
 s_id ... session ID
