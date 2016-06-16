@@ -23,11 +23,12 @@ The TuioClient Plugin has a settings field for an optional UDP port,
 the default TUIO/UDP port is 3333.
 
 There are three outputs, the first one is giving all current TuioObjects,
-while the second  port outputs TuioCursors, and the third TuioBlobs.
-All ports output "Structures", which are parameter lists, containing:
+while the second port outputs TuioCursors, and the third TuioBlobs.
+All ports output "Structures", which are parameter lists that containing,
+some of the following attributes (depending on the actual output):
 
 s_id ... session ID
-c_id ... cursor ID / symbol ID
+c_id ... cursor/symbol/blob ID
 xpos ... position on X-axis (0...1)
 ypos ... position on Y-axis (0...1)
 angle .. rotation angle (0...360)
