@@ -16,12 +16,13 @@ Demo Patch:
 This package contains a basic Quartz Composer patch "TuioDemo"
 that receives and decodes TUIO messages reveived from any TUIO enabled
 tracker. This patch draws a black square along with the SymbolID
-for any received TuioObject as well as a grey circle for each TuioCursor.
+for any received TuioObject as well as a grey circle for each TuioCursor,
+as well as an ellipse for each TuioBlob. 
 
-The TuioClient Plugin has a settings field for an optional UDP port.
-The default TUIO UDP port is 3333.
+The TuioClient Plugin has a settings field for an optional UDP port,
+the default TUIO/UDP port is 3333.
 
-There are two outputs, the first one is giving all current TuioObjects,
+There are three outputs, the first one is giving all current TuioObjects,
 while the second  port outputs TuioCursors, and the third TuioBlobs.
 All ports output "Structures", which are parameter lists, containing:
 
